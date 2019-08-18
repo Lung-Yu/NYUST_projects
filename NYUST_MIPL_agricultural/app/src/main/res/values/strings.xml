@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">NCYU 動態資訊系統</string>
+    <string name="label_name">名稱</string>
+    <string name="label_provider">生產者</string>
+    <string name="label_space_origin">產地</string>
+    <string name="label_GPS">GPS 座標</string>
+    <string name="label_product_name">產品名稱</string>
+    <string name="label_capture_time">拍攝時間</string>
+    <string name="label_watering">澆水</string>
+    <string name="label_manure">施肥</string>
+    <string name="label_spray_pesticide">噴農藥</string>
+    <string name="label_fruits_and_vegetables">蔬果</string>
+    <string name="label_YES">是</string>
+    <string name="label_NO">否</string>
+    <string name="btn_scan_qr">掃描 QR Code</string>
+    <string name="btn_send_ans">確認送出</string>
+    <string name="btn_scan">辨識</string>
+    <string name="txt_login_account_hint">user name</string>
+    <string name="txt_login_password_hint">user password</string>
+    <string name="btn_login">登入</string>
+
+    <string name="dialog_task_item_title">選擇執行任務</string>
+    <string name="dialog_process_title">資料讀取中</string>
+    <string name="dialog_process_detail">請稍後...</string>
+    <string name="label_PlandId">Pland Id : </string>
+    <string name="label_LandCode">Land Code : </string>
+    <string name="label_Name">Name : </string>
+    <string name="label_Task_Type_Id">Task Type Id : </string>
+    <string name="label_Task_Name">Task Name : </string>
+    <string name="label_produce_recording">開始攝影</string>
+    <string name="label_selected_video_">選擇影像</string>
+    <string name="label_post_produce">回報生產實績</string>
+    <string name="label_harvest">採收作業</string>
+    <string name="label_harvest_recording">採收作業</string>
+    <string name="label_post_harvest_recording">回報採收實機</string>
+    <!-- interal static val define -->
+    <string name="intent_plan_id">tag_plan_id</string>
+    <string name="intent_task_id">tag_task_id</string>
+    <string name="intent_task_name">tag_task_name</string>
+    <!-- web api urls -->
+    <string name="web_api_login">https://algdb.csie.ncyu.edu.tw:8080/api/login</string>
+    <string name="web_api_lands">https://algdb.csie.ncyu.edu.tw:8080/api/lands</string>
+    <string name="web_api_farmes">https://algdb.csie.ncyu.edu.tw:8080/api/farmers</string>
+    <string name="web_api_pesticides">https://algdb.csie.ncyu.edu.tw:8080/api/pesticides</string>
+    <string name="web_api_crops">https://algdb.csie.ncyu.edu.tw:8080/api/crops</string>
+    <string name="web_api_manures">https://algdb.csie.ncyu.edu.tw:8080/api/manures</string>
+    <string name="web_api_plans">https://algdb.csie.ncyu.edu.tw:8080/api/plans</string>
+    <string name="web_api_tasks">https://algdb.csie.ncyu.edu.tw:8080/api/tasks</string>
+    <string name="web_api_tasklogs">https://algdb.csie.ncyu.edu.tw:8080/api/tasklogs</string>
+    <string name="web_api_harvest">https://algdb.csie.ncyu.edu.tw:8080/api/harvest</string>
+
+
+    <!-- interal static val define -->
+    <string name="tag_ocr_result">ocr_result</string>
+
+</resources>
+
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/QR_Code_Scan"
+        android:title="QR-Code Scan"/>
+    <item android:id="@+id/Qr_Code_Maker"
+        android:title="Make Qr Code"/>
+    <item android:id="@+id/record_video"
+        android:title="Record Videos"/>
+</menu>
