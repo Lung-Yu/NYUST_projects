@@ -1,4 +1,5 @@
 import numpy as np
+from scipy.io import wavfile
 
 def split_frame(rate,data,split_len=512,overlap=0.25):
     frames = []
@@ -14,5 +15,6 @@ def split_frame(rate,data,split_len=512,overlap=0.25):
 
     return frames
 
+file_path = "file path"
 rate,data = wavfile.read(file_path)
 frames = split_frame(rate,data)
